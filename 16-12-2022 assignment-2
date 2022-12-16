@@ -1,0 +1,7 @@
+str=input("Enter a string")
+n=len(str)
+alphabet=0
+for i in range(0,n):
+    if str[i].isalpha():
+     alphabet=alphabet+1
+print("alphabet=",alphabet)
