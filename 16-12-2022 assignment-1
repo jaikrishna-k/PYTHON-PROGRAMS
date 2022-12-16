@@ -1,0 +1,10 @@
+str=input("Enter a string")
+n=len(str)
+print("no of characters:",n)
+if (str.isupper()):
+    print(str.lower())
+elif (str.islower()):
+    print(str.upper())
+else:
+    print(str.swapcase())
+    
